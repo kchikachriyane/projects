@@ -1,3 +1,5 @@
+# Vasicek stochastic interest rate model
+
 import numpy as np
 
 class VasicekModel:
