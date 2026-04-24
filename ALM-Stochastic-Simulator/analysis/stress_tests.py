@@ -3,7 +3,7 @@ import numpy as np
 def run_interest_rate_shock(rates, asset_function, liability_function, shock_size=0.02):
     """
     Applies a parallel shift to the interest rate paths 
-    and re-calculates the surplus.
+    and re-calculates the surplus. 
     """
     # 1. Apply the shock (+200bps)
     shocked_rates = rates + shock_size
