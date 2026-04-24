@@ -1,6 +1,5 @@
 import numpy as np
 
-
 class FixedRateBond:
     """
     Fixed-rate bond valuation and duration
